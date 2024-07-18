@@ -1,0 +1,28 @@
+{
+  "name": "prajwal-money-convert",
+  "version": "1.0.0",
+  "description": "Package to convert money",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prajwalmandlik2004/my-npm-package.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Prajwal Mandlik",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/prajwalmandlik2004/my-npm-package/issues"
+  },
+  "homepage": "https://github.com/prajwalmandlik2004/my-npm-package#readme",
+  "dependencies": {
+    "@everapi/freecurrencyapi-js": "^1.0.1"
+  }
+}
+
+
