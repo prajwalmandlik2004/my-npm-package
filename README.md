@@ -8,6 +8,7 @@ You can install this package using npm:
 
 ```bash
 npm install prajwal-money-convert
+```
 
 # Usage
 
@@ -19,7 +20,7 @@ First, import the moneyConverter function from the package:
 
 ```bash
 import { moneyConverter } from 'prajwal-money-convert';
-
+```
 
 # Using the moneyConverter Function
 
@@ -35,7 +36,7 @@ The function returns a promise that resolves with the converted amount. Here's a
 moneyConverter('USD', 'INR', 3)
   .then(res => console.log(res))
   .catch(err => console.error(err));
-
+```
 
 # Example
 
@@ -47,7 +48,7 @@ import { moneyConverter } from 'prajwal-money-convert';
 moneyConverter('USD', 'INR', 3)
   .then(res => console.log(`Converted amount: ${res}`))
   .catch(err => console.error(`Error: ${err.message}`));
-
+```
 
 # Output
 
@@ -56,3 +57,6 @@ The output will be the converted amount from USD to INR. For example, if 1 USD i
 
 ```bash
 Converted amount: 225
+```
+
+
